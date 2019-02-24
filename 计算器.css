@@ -1,0 +1,34 @@
+/*计算器边框*/
+#shownum{
+				
+				width: 250px;
+				border:solid 1px #000000;
+				text-align: center;
+				background-color:lightgoldenrodyellow;
+				border-radius: 5px;
+			}
+			/*结果输出框*/
+			#print{
+				height:33px;
+				width:210px;
+				border:black solid 1px;
+				background-color:white;
+				/*border-top-width:10px;*/
+				padding-top:5px;
+				margin-top:5px;
+				font-size: 15px;
+			}
+			
+			/*按钮格式*/
+			input[type=button]{
+				margin-bottom:4px;
+				margin-top: 4px;
+				margin-left: 5px;
+				margin-right: 5px;
+				font-size: 16px;
+				height: 29px;
+				width: 40px;
+			}
+			
+			
+		
