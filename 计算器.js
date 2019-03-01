@@ -21,13 +21,9 @@ switch(txt1){
 	//定义并输出时间
 	var mytime=new Date();
 	document.getElementById("print").value=mytime.toLocaleString();break;
+	//回退功能
 	case "B":
-	document.getElementById("print").value= parseFloat(document.getElementById("print").value/10);
-	/*
-	错误！若输入数值非整数，则会回退不止一位
-	？？？
-	*/
-	
+	document.getElementById("print").value=document.getElementById("print").value.substr(0,document.getElementById("print").value);	
 	break;
 	case "%":document.getElementById("print").value=0.01*document.getElementById("print").value;break;
 	default:
