@@ -25,6 +25,10 @@ switch(txt1){
 	case "B":
 	document.getElementById("print").value=document.getElementById("print").value.substr(0,document.getElementById("print").value);	
 	break;
+	//求正余弦
+	case "sin":document.getElementById("print").value=Math.sin(document.getElementById("print").value);break;
+	case "cos":document.getElementById("print").value=Math.cos(document.getElementById("print").value);break;
+	case "tan":document.getElementById("print").value=Math.tan(document.getElementById("print").value);break;
 	case "%":document.getElementById("print").value=0.01*document.getElementById("print").value;break;
 	default:
 	//其他情况直接在输出框输出按钮对应值
