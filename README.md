@@ -1,4 +1,3 @@
-# -
-用简单的html，css，及js做的计算器界面；
-部分功能尚未完善。
-持续学习改进中......
+# Caculator
+一个简易计算器
+[预览](https://jiujiu12.github.io/Caculator/Caculator.html)
